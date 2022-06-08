@@ -26,19 +26,19 @@ FLAGS = flags.FLAGS
 
 
 def class_text_to_int(row_label):
-    if row_label == 'fish':
+    if row_label == 'BlueFish1':
         return 1
-    elif row_label == 'jellyfish':
+    elif row_label == 'BlueFish2':
         return 2
-    elif row_label == 'penguin':
+    elif row_label == 'Dolphin1':
         return 3
-    elif row_label == 'shark':
+    elif row_label == 'Dolphin2':
         return 4
-    elif row_label == 'puffin':
+    elif row_label == 'Fisherman':
         return 5
-    elif row_label == 'stingray':
+    elif row_label == 'DeepSeaFish':
         return 6
-    elif row_label == 'starfish':
+    elif row_label == 'SeaDiver':
         return 7
     else:
         return None
